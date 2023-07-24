@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 import './Student.css'
 
 const Students = () => {
-  const [data, setData] = useState([
+  const [data] = useState([
     {
       Name: "Rachel",
       Age: 20,
